@@ -8,76 +8,206 @@
   </head>
   <body>
     <div id="leftMenuContainer">
-      <div>
-        <h1 id="titleContainer">Admin Dashboard</h1>
+      <div id="titleContainer">
+        <img src="" id="logo" alt="" />
+        <h3 id="title">Dashboard</h3>
       </div>
-      <div>
-        <a href="#">Home</a>
+      <div id="mainMenuContainer">
+        <div class="menuItem">
+          <a href="#">Home</a>
+        </div>
+        <div class="menuItem">
+          <a href="#">Profile</a>
+        </div>
+        <div class="menuItem">
+          <a href="#">Messages</a>
+        </div>
+        <div class="menuItem">
+          <a href="#">History</a>
+        </div>
+        <div class="menuItem">
+          <a href="#">Tasks</a>
+        </div>
+        <div class="menuItem">
+          <a href="#">Communities</a>
+        </div>
       </div>
-      <div>
-        <a href="#">Profile</a>
-      </div>
-      <div>
-        <a href="#">Messages</a>
-      </div>
-      <div>
-        <a href="#">History</a>
-      </div>
-      <div>
-        <a href="#">Tasks</a>
-      </div>
-      <div>
-        <a href="#">Communities</a>
-      </div>
-      <div>
+      <div class="menuItem">
         <a href="#">Settings</a>
       </div>
-      <div>
+      <div class="menuItem">
         <a href="#">Support</a>
       </div>
-      <div>
+      <div class="menuItem">
         <a href="#">Privacy</a>
       </div>
     </div>
 
-    <div id="topContainer">
-      <div id="searchAndProfileContainer">
-        <a href="#" id="searchIcon"><i>Search</i></a>
-        <div id="search"></div>
+    <div id="rightContainer">
+      <div id="topContainer">
+        <div id="searchAndProfileContainer">
+          <a href="#" id="searchIcon"><i>Search</i></a>
+          <div id="search"></div>
 
-        <a href="#" id="notificationIcon"><i>Notifications</i></a>
-        <img src="" alt="profile image" id="profileImage" />
+          <a href="#" id="notificationIcon"><i>Notifications</i></a>
+          <img src="" alt="profile image" id="profileImageSmall" />
 
-        <h6>ProfileName</h6>
+          <h6>ProfileName</h6>
+        </div>
+        <div id="bottomTopContainer">
+          <div id="profileImageContainer">
+            <img src="" alt="" id="profileImageBig" />
+          </div>
+          <div id="welcomeMessageContainer">
+            <p>
+              Hi there,<br />
+              Morgan Oakly (@morgan)
+            </p>
+          </div>
+          <div id="buttonContainer">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div id="projectsContaienr">
-      <div id="column1">
-        <div id="projectsColumn1">
-          <div id="project1"></div>
-          <div id="project2"></div>
-          <div id="project3"></div>
+      <div>
+        <div>
+          <h6>Your Projects</h6>
         </div>
-        <div id="projectsColumn2">
-          <div id="project4"></div>
-          <div id="project5"></div>
-          <div id="project6"></div>
+        <div>
+          <h6>Announcements</h6>
         </div>
       </div>
-      <div id="column2">
-        <div id="anouncementsContainer">
-          <div id="anouncement1"></div>
-          <hr />
-          <div id="anouncement2"></div>
-          <hr />
-          <div id="anouncement3"></div>
+
+      <div id="projectsContainer">
+        <div id="column1">
+          <div id="projectsColumn1">
+            <div class="projects" id="project1">
+              <div class="postTitleContainer">
+                <h5 class="postTitle">title</h5>
+              </div>
+              <div class="postTextContainer">
+                <p class="postText">big long text</p>
+              </div>
+              <div class="iconsOnPostDiv">
+                <div><i>icon</i></div>
+                <div><i>icon</i></div>
+                <div><i>icon</i></div>
+              </div>
+            </div>
+            <div class="projects" id="project2">
+              <div class="postTitleContainer">
+                <h5 class="postTitle">title</h5>
+              </div>
+              <div class="postTextContainer">
+                <p class="postText">big long text</p>
+              </div>
+              <div class="iconsOnPostDiv">
+                <div><i>icon</i></div>
+                <div><i>icon</i></div>
+                <div><i>icon</i></div>
+              </div>
+            </div>
+            <div class="projects" id="project3">
+              <div class="postTitleContainer">
+                <h5 class="postTitle">title</h5>
+              </div>
+              <div class="postTextContainer">
+                <p class="postText">big long text</p>
+              </div>
+              <div class="iconsOnPostDiv">
+                <div><i>icon</i></div>
+                <div><i>icon</i></div>
+                <div><i>icon</i></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="column2">
+            <div id="projectsColumn2">
+              <div class="projects" id="project4">
+                <div class="postTitleContainer">
+                  <h5 class="postTitle">title</h5>
+                </div>
+                <div class="postTextContainer">
+                  <p class="postText">big long text</p>
+                </div>
+                <div class="iconsOnPostDiv">
+                  <div><i>icon</i></div>
+                  <div><i>icon</i></div>
+                  <div><i>icon</i></div>
+                </div>
+              </div>
+
+              <div class="projects" id="project5">
+                <div class="postTitleContainer">
+                  <h5 class="postTitle">title</h5>
+                </div>
+                <div class="postTextContainer">
+                  <p class="postText">big long text</p>
+                </div>
+                <div class="iconsOnPostDiv">
+                  <div><i>icon</i></div>
+                  <div><i>icon</i></div>
+                  <div><i>icon</i></div>
+                </div>
+              </div>
+
+              <div class="projects" id="project6">
+                <div class="postTitleContainer">
+                  <h5 class="postTitle">title</h5>
+                </div>
+                <div class="postTextContainer">
+                  <p class="postText">big long text</p>
+                </div>
+                <div class="iconsOnPostDiv">
+                  <div><i>icon</i></div>
+                  <div><i>icon</i></div>
+                  <div><i>icon</i></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="trendingContainer">
-          <div id="trending1"></div>
-          <div id="trending2"></div>
-          <div id="trending3"></div>
-          <div id="trending4"></div>
+        <div id="column3">
+          <div id="interactionsContainer">
+            <div id="anouncementsContainer">
+              <div id="anouncement1">
+                <div>
+                  <h6>title</h6>
+                </div>
+                <div>
+                  <p>big long text</p>
+                </div>
+              </div>
+              <hr />
+              <div id="anouncement2">
+                <div>
+                  <h6>title</h6>
+                </div>
+                <div>
+                  <p>big long text</p>
+                </div>
+              </div>
+              <hr />
+              <div id="anouncement3">
+                <div>
+                  <h6>title</h6>
+                </div>
+                <div>
+                  <p>big long text</p>
+                </div>
+              </div>
+            </div>
+            <div id="trendingContainer">
+              <div id="trending1"></div>
+              <div id="trending2"></div>
+              <div id="trending3"></div>
+              <div id="trending4"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

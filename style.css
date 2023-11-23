@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#leftMenuContainer {
+  height: 100%;
+  width: 20%;
+  background-color: dodgerblue;
+  color: white;
+}
+
+#rightContainer {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#titleContainer {
+  margin: auto;
+}
+
+#mainMenuContainer {
+  margin: 50px 0;
+}
+
+.menuItem,
+#title,
+#logo {
+  margin: 15px 25px;
+}
+
+#topContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#searchAndProfileContainer,
+#bottomTopContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#projectsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#column1,
+#column2,
+#column3 {
+  display: flex;
+  flex-direction: row;
+}
+
+#projectsColumn1,
+#projectsColumn2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  height: 150px;
+  width: 275px;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.iconsOnPostDiv {
+  display: flex;
+  flex-direction: row;
+}
