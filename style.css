@@ -53,6 +53,18 @@ a {
   flex-direction: row;
 }
 
+#profileImageSmall {
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+}
+
+#profileImageBig {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
 #projectsContainer {
   display: flex;
   flex-direction: column;
