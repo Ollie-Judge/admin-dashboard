@@ -21,49 +21,53 @@
       </div>
       <div id="mainMenuContainer">
         <div class="menuItem">
-          <a href="#">Home</a>
+          <a href="#"><i class="fa-solid fa-house"></i> Home</a>
         </div>
         <div class="menuItem">
-          <a href="#">Profile</a>
+          <a href="#"><i class="fa-solid fa-user"></i> Profile</a>
         </div>
         <div class="menuItem">
-          <a href="#">Messages</a>
+          <a href="#"><i class="fa-solid fa-message"></i> Messages</a>
         </div>
         <div class="menuItem">
-          <a href="#">History</a>
+          <a href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a>
         </div>
         <div class="menuItem">
-          <a href="#">Tasks</a>
+          <a href="#"><i class="fa-solid fa-list-check"></i> Tasks</a>
         </div>
         <div class="menuItem">
-          <a href="#">Communities</a>
+          <a href="#"
+            ><i class="fa-solid fa-tower-broadcast"></i> Communities</a
+          >
         </div>
       </div>
       <div class="menuItem">
-        <a href="#">Settings</a>
+        <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
       </div>
       <div class="menuItem">
-        <a href="#">Support</a>
+        <a href="#"><i class="fa-solid fa-phone"></i> Support</a>
       </div>
       <div class="menuItem">
-        <a href="#">Privacy</a>
+        <a href="#"><i class="fa-solid fa-shield"></i> Privacy</a>
       </div>
     </div>
 
     <div id="rightContainer">
       <div id="topContainer">
         <div id="searchAndProfileContainer">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <div id="search"><input type="text" placeholder="Search.." /></div>
+          <i id="searchIcon" class="fa-solid fa-magnifying-glass"></i>
+          <div id="searchContainer">
+            <input id="search" type="text" />
+          </div>
 
-          <a href="#" id="notificationIcon"><i>Notifications</i></a>
+          <i id="notifications" class="fa-solid fa-bell"></i>
           <img
             src="https://i.pinimg.com/originals/20/41/d8/2041d8e2d6ebc52134104b00fd68ebc7.jpg"
             alt="profile image"
             id="profileImageSmall"
           />
 
-          <h6>ProfileName</h6>
+          <h6>Morgan Oakley</h6>
         </div>
         <div id="bottomTopContainer">
           <div id="profileImageContainer">
@@ -80,18 +84,18 @@
             </p>
           </div>
           <div id="buttonContainer">
-            <button>New</button>
-            <button>Upload</button>
+            <button id="newButton">New</button>
+            <button id="uploadButton">Upload</button>
             <button>Share</button>
           </div>
         </div>
       </div>
 
-      <div>
-        <div>
+      <div id="titlesContainerContainer">
+        <div class="titleContainer" id="projectsTitleContainer">
           <h6>Your Projects</h6>
         </div>
-        <div>
+        <div class="titleContainer" id="announcementsTitleContainer">
           <h6>Announcements</h6>
         </div>
       </div>
@@ -107,9 +111,9 @@
                 <p class="postText">big long text</p>
               </div>
               <div class="iconsOnPostDiv">
-                <div><i>icon</i></div>
-                <div><i>icon</i></div>
-                <div><i>icon</i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-regular fa-eye"></i></div>
+                <div><i class="fa-solid fa-share"></i></div>
               </div>
             </div>
             <div class="projects" id="project2">
@@ -120,9 +124,9 @@
                 <p class="postText">big long text</p>
               </div>
               <div class="iconsOnPostDiv">
-                <div><i>icon</i></div>
-                <div><i>icon</i></div>
-                <div><i>icon</i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-regular fa-eye"></i></div>
+                <div><i class="fa-solid fa-share"></i></div>
               </div>
             </div>
             <div class="projects" id="project3">
@@ -133,9 +137,9 @@
                 <p class="postText">big long text</p>
               </div>
               <div class="iconsOnPostDiv">
-                <div><i>icon</i></div>
-                <div><i>icon</i></div>
-                <div><i>icon</i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-regular fa-eye"></i></div>
+                <div><i class="fa-solid fa-share"></i></div>
               </div>
             </div>
           </div>
@@ -150,9 +154,9 @@
                   <p class="postText">big long text</p>
                 </div>
                 <div class="iconsOnPostDiv">
-                  <div><i>icon</i></div>
-                  <div><i>icon</i></div>
-                  <div><i>icon</i></div>
+                  <div><i class="fa-solid fa-star"></i></div>
+                  <div><i class="fa-regular fa-eye"></i></div>
+                  <div><i class="fa-solid fa-share"></i></div>
                 </div>
               </div>
 
@@ -164,9 +168,9 @@
                   <p class="postText">big long text</p>
                 </div>
                 <div class="iconsOnPostDiv">
-                  <div><i>icon</i></div>
-                  <div><i>icon</i></div>
-                  <div><i>icon</i></div>
+                  <div><i class="fa-solid fa-star"></i></div>
+                  <div><i class="fa-regular fa-eye"></i></div>
+                  <div><i class="fa-solid fa-share"></i></div>
                 </div>
               </div>
 
@@ -178,9 +182,9 @@
                   <p class="postText">big long text</p>
                 </div>
                 <div class="iconsOnPostDiv">
-                  <div><i>icon</i></div>
-                  <div><i>icon</i></div>
-                  <div><i>icon</i></div>
+                  <div><i class="fa-solid fa-star"></i></div>
+                  <div><i class="fa-regular fa-eye"></i></div>
+                  <div><i class="fa-solid fa-share"></i></div>
                 </div>
               </div>
             </div>
