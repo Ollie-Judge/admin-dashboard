@@ -110,6 +110,8 @@ button {
 }
 
 #titlesContainerContainer {
+  height: 40px;
+  background-color: lightgrey;
   display: flex;
 }
 
@@ -154,4 +156,10 @@ button {
 .iconsOnPostDiv {
   display: flex;
   flex-direction: row;
+  margin-top: 25px;
+  margin-left: 200px;
+}
+
+.fa-eye {
+  margin: auto 25px;
 }
